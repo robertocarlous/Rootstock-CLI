@@ -57,12 +57,12 @@ parseInput(input: string) → Detects hashes/addresses.
 
 errorHandler(error: any) → Standard error handling & exit codes.
 
-Dependencies
+## Dependencies
 Node.js (CLI implementation)
 
 Rootstock CLI base package
 
-Skills Required
+## Skills Required
 Node.js / TypeScript → CLI development
 
 Rootstock / EVM Knowledge → Understand transactions & contract deployment
@@ -71,9 +71,8 @@ Shell / CLI Design → Piping and process management
 
 Testing (Mocha/Jest) → Ensure command chaining works reliably
 
-Project Structure
-perl
-Copy code
+## Project Structure
+
 rootstock-cli-pipe/
 │
 ├── src/
@@ -86,7 +85,8 @@ rootstock-cli-pipe/
 ├── README.md
 ├── package.json
 └── .gitignore
-References
+
+##References
 Rootstock Docs
 
 Unix Pipe Concept
